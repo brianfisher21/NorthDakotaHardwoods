@@ -3,6 +3,9 @@ h2{
 	font-family: 'Arizonia', cursive; arial, sans-serif;
 }
 
+ul li span {
+	color: Brown;
+}
 p{
 	color: green;
 }
