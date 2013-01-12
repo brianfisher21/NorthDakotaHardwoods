@@ -1,8 +1,12 @@
-h1{
+h2{
 	 
 	font-family: 'Arizonia', cursive; arial, sans-serif;
 }
 
-body{
+p{
 	color: green;
+}
+
+footer p{
+	color: silver;
 }
