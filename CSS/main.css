@@ -11,15 +11,31 @@ body {
 
 
 #logo_excape_hatch {
-	text-decoration: none
+	text-decoration: none;
 }
 
 
 #logo_excape_hatch {
 	font-family: 'Anton', sans-serif;
-	color: #8B814C;
 	font-size: 3.125em; 
 }
+
+#logo_excape_hatch:link {
+	color: #8B814C
+}
+
+#logo_excape_hatch:visited {
+	color: #8B814C
+}
+
+#logo_excape_hatch:hover {
+	color: #8B814C
+}
+
+#logo_excape_hatch:active {
+	color: #8B814C
+}
+
 
 
 
@@ -54,7 +70,7 @@ h2 {
 	color: #8B8B00;
 }
 
-.gallery_link: hover{
+.gallery_link:hover{
 	color: #EEEE00;
 }
 
