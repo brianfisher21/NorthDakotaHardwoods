@@ -1,51 +1,65 @@
+/*------------------------------------ pixels/16=em --*/
+
 body {
-	background: 790px #FFF8DC
+	font-size: 100%
+	background: 790px #FFFAF0;
+	
+}
+
+/*------------------------------------ logo & branding --*/
+
+
+
+#logo_excape_hatch {
+	text-decoration: none
 }
 
 
 #logo_excape_hatch {
-	font-family: 'Alfa Slab One', cursive;
-	text-decoration: none;
+	font-family: 'Anton', sans-serif;
+	color: #8B814C;
+	font-size: 3.125em; 
 }
 
 
 
 
 
-
+/*----------------------------------- company description  --*/
 
 
 	
-h2{
+h2 {
 	 
-	font-family: 'Arizonia', cursive; arial, sans-serif; 
+	font-family: 'Arizonia', cursive; arial, sans-serif;
+	color: #006400;
+	
 }		
 		
-		
+	
 		
 #company_discription {
 	font-family: 'Alice', serif;
 }		
 
+.gallery_link {
+	text-decoration: none
+}	
 
 .gallery_link:link{
 	color: #006400;
-	text-decoration: none;
 }
 
 .gallery_link:visited{
 	color: #8B8B00;
-	text-decoration: none;
 }
 
 .gallery_link: hover{
 	color: #EEEE00;
-	text-decoration: none;
 }
 
 .gallery_link:active{
 	color: #A2CD5A;
-	text-decoration: none;
 }
 
 
