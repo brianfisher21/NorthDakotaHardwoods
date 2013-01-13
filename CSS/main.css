@@ -23,7 +23,9 @@ h2{
 		
 		
 		
-		
+#company_discription {
+	font-family: 'Alice', serif;
+}		
 
 
 .gallery_link:link{
@@ -45,3 +47,5 @@ h2{
 	color: #A2CD5A;
 	text-decoration: none;
 }
+
+
