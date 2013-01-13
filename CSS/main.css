@@ -1,16 +1,11 @@
-h2{
-	 
-	font-family: 'Arizonia', cursive; arial, sans-serif; 
+body {
+	background: 790px #FFF8DC
 }
-
-
-
-		<!-- logo and excape hatch -->
 
 
 #logo_excape_hatch {
 	font-family: 'Alfa Slab One', cursive;
-	color: red;
+	text-decoration: none;
 }
 
 
@@ -18,13 +13,18 @@ h2{
 
 
 
-		<!-- main nav -->
+
+
+	
+h2{
+	 
+	font-family: 'Arizonia', cursive; arial, sans-serif; 
+}		
 		
 		
 		
 		
-		
-		<!-- company discription -->
+
 
 .gallery_link:link{
 	color: #006400;
