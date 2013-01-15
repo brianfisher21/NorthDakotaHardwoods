@@ -22,8 +22,9 @@ body {
 	color: #8B814C;
 	text-shadow: 1px 2px 4px #111;
 	text-align: right;
-	margin: 0px 25px 20px 0px;
-	float: left
+	margin: 0px 25px 10px 0px;
+	padding: 0px 0px 10px 0px;
+	float: left;
 }
 
 a {
@@ -140,10 +141,80 @@ h2 {
 
 /*--------------------------------- gallery page --*/
 
-
-
-.pic {
-	 list-style-type: none
+.knutson, .mertz, .odden, .jacobson, .vetter {
+	float: right;
 }
 
+ul p {
+	float: right;
+	width: 200px;
+}
+/*.type {
+	float: left
+	width: 200px
+}*/
 
+.pic1 {
+	 background-color: #fff;
+	 list-style-type: none;
+	 width: 210px;
+	 padding: 12px 12px 40px 12px;
+	 border: .5px .5px .5px .5px #888;
+	 -webkit-transform: rotate(-2deg);
+	 -moz-transform: rotate(-2deg);
+	 -moz-box-shadow: 1px 3px 5px #888;
+	 -webkit-box-shadow: 1px 3px 5px #888;
+	 box-shadow: 1px 3px 5px #888;
+}
+
+.pic2 {
+	 background-color: #fff;
+	 list-style-type: none;
+	 width: 210px;
+	 padding: 12px 12px 40px 12px;
+	 border: .5px .5px .5px .5px #888;
+	 -webkit-transform: rotate(.5deg);
+	 -moz-transform: rotate(.5deg);
+	 -moz-box-shadow: 1px 3px 5px #888;
+	 -webkit-box-shadow: 1px 3px 5px #888;
+	 box-shadow: 1px 3px 5px #888;
+}
+
+.pic3 {
+	 background-color: #fff;
+	 list-style-type: none;
+	 width: 210px;
+	 padding: 12px 12px 40px 12px;
+	 border: .5px .5px .5px .5px #888;
+	 -webkit-transform: rotate(5deg);
+	 -moz-transform: rotate(5deg);
+	 -moz-box-shadow: 1px 3px 5px #888;
+	 -webkit-box-shadow: 1px 3px 5px #888;
+	 box-shadow: 1px 3px 5px #888;
+}
+
+.pic4 {
+	 background-color: #fff;
+	 list-style-type: none;
+	 width: 210px;
+	 padding: 12px 12px 40px 12px;
+	 border: .5px .5px .5px .5px #888;
+	 -webkit-transform: rotate(-4deg);
+	 -moz-transform: rotate(-4deg);
+	 -moz-box-shadow: 1px 3px 5px #888;
+	 -webkit-box-shadow: 1px 3px 5px #888;
+	 box-shadow: 1px 3px 5px #888;
+}
+
+.pic5 {
+	 background-color: #fff;
+	 list-style-type: none;
+	 width: 210px;
+	 padding: 12px 12px 40px 12px;
+	 border: .5px .5px .5px .5px #888;
+	 -webkit-transform: rotate(3deg);
+	 -moz-transform: rotate(3deg);
+	 -moz-box-shadow: 1px 3px 5px #888;
+	 -webkit-box-shadow: 1px 3px 5px #888;
+	 box-shadow: 1px 3px 5px #888;
+}
