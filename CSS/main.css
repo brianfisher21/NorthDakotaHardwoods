@@ -48,21 +48,35 @@ a:active{
 	font-family: 'Alice', serif; 
 	font-size: .562em;
 	color: #666;
-	text-align: right; 
+	text-align: right;
+	width: auto
+	height: auto 
+}
+
+#lumber {
+	margin: 0;f
 }
 
 
 /*----------------------------------- main navigation --*/
 
+
+#main_nav {
+	padding: 0px
+}
+
 .nav_link, .c2t {
 	border: solid #999;
 	background-color: white;
 	display: block;
+	padding: 10px;
+	margin: 10px 20px 10px 0px;
 	text-align: center;
 	width: 120px;
-	float: left
+	float: left;
+}	
+
 	
-}		
 
 a:link{
 	color: #006400;
@@ -81,10 +95,6 @@ a:active{
 }
 
 
-article {
-	
-}
-
 
 
 
@@ -99,22 +109,18 @@ h2 {
 	 
 	font-family: 'Arizonia', cursive; arial, sans-serif;
 	color: #006400;
-	
+	text-align: center;
+	width: 640px
+	margin: 0px;
 }		
-		
-	
 		
 #company_discription {
 	font-family: 'Alice', serif;
 	font-size: 16px;
 	background-color: silver;
 	width: 500px;
-	
+	float: left;
 }		
-
-
-
-
 
 .gallery_link {
 	text-decoration: none;
@@ -139,16 +145,8 @@ h2 {
 /*--------------------------------- gallery page --*/
 
 section {
-	width: 600px;
-	float: right;
+	width: 640px;
 }
-
-#gallery {
-	width: 790;
-}
-
-
-
 
 #gallery_photos {
 	margin: none;
@@ -159,12 +157,19 @@ ul p {
 	width: 200px;
 }
 
-ul li {
-	
-}
 
 ul li div {
 	margin: 0;
+}
+
+aside {
+	font-family: 'Just Another Hand', cursive;
+	color: #8B7355;
+	width: 620px;
+	padding-left: 20px;
+	text-align: center
+	
+	
 }
 
 .pic1 {
@@ -181,6 +186,7 @@ ul li div {
 	-moz-box-shadow: 1px 3px 5px #888;
 	-webkit-box-shadow: 1px 3px 5px #888;
 	box-shadow: 1px 3px 5px #888;
+	clear: left;
 }
 
 .pic2 {
