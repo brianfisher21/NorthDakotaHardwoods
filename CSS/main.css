@@ -54,7 +54,7 @@ a:active{
 
 /*----------------------------------- main navigation --*/
 
-.nav_link {
+.nav_link, .c2t {
 	border: solid #999;
 	background-color: white;
 	display: block;
@@ -247,6 +247,19 @@ ul li div {
 	-webkit-box-shadow: 1px 3px 5px #888;
 	box-shadow: 1px 3px 5px #888;
 	margin-bottom: 75px
+}
+
+
+/*----------------------------------- appointment form --*/
+
+
+#form {
+	text-align: center
+}
+
+
+#place_holder {
+	margin: 790px      /*-- temporary --*/
 }
 
 
