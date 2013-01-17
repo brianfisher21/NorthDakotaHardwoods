@@ -1,13 +1,6 @@
 /*------------------------------------ pixels/16=em --*/
 
-body {
-	font-size: 100%;
-	background: #FFFAF0;
-	line-height: 1.5;
-	width: 790px;
-	margin: 0 auto;
-	padding: 20px;
-}
+
 
 /*------------------------------------ logo & branding --*/
 
@@ -64,12 +57,12 @@ a:active{
 .nav_link {
 	border: solid #999;
 	background-color: white;
-	display: inline;
-}	
-
-a {
-	text-decoration: none;
-}	
+	display: block;
+	text-align: center;
+	width: 120px;
+	float: left
+	
+}		
 
 a:link{
 	color: #006400;
@@ -87,6 +80,10 @@ a:active{
 	color: #A2CD5A;
 }
 
+
+article {
+	
+}
 
 
 
@@ -141,80 +138,120 @@ h2 {
 
 /*--------------------------------- gallery page --*/
 
-.knutson, .mertz, .odden, .jacobson, .vetter {
+section {
+	width: 600px;
 	float: right;
+}
+
+#gallery {
+	width: 790;
+}
+
+
+
+
+#gallery_photos {
+	margin: none;
 }
 
 ul p {
 	float: right;
 	width: 200px;
 }
-/*.type {
-	float: left
-	width: 200px
-}*/
+
+ul li {
+	
+}
+
+ul li div {
+	margin: 0;
+}
 
 .pic1 {
-	 background-color: #fff;
-	 list-style-type: none;
-	 width: 210px;
-	 padding: 12px 12px 40px 12px;
-	 border: .5px .5px .5px .5px #888;
-	 -webkit-transform: rotate(-2deg);
-	 -moz-transform: rotate(-2deg);
-	 -moz-box-shadow: 1px 3px 5px #888;
-	 -webkit-box-shadow: 1px 3px 5px #888;
-	 box-shadow: 1px 3px 5px #888;
+	font-family: 'Just Another Hand', cursive;
+	font-size: 28px;
+	text-align: center;
+	background-color: #fff;
+	list-style-type: none;
+	width: 210px;
+	padding: 12px 12px 5px 12px;
+	border: .5px .5px .5px .5px #888;
+	-webkit-transform: rotate(-2deg);
+	-moz-transform: rotate(-2deg);
+	-moz-box-shadow: 1px 3px 5px #888;
+	-webkit-box-shadow: 1px 3px 5px #888;
+	box-shadow: 1px 3px 5px #888;
 }
 
 .pic2 {
-	 background-color: #fff;
-	 list-style-type: none;
-	 width: 210px;
-	 padding: 12px 12px 40px 12px;
-	 border: .5px .5px .5px .5px #888;
-	 -webkit-transform: rotate(.5deg);
-	 -moz-transform: rotate(.5deg);
-	 -moz-box-shadow: 1px 3px 5px #888;
-	 -webkit-box-shadow: 1px 3px 5px #888;
-	 box-shadow: 1px 3px 5px #888;
+	font-family: 'Just Another Hand', cursive;
+	font-size: 28px;
+	text-align: center;
+	background-color: #fff;
+	list-style-type: none;
+	width: 210px;
+	padding: 12px 12px 0px 12px;
+	border: .5px .5px .5px .5px #888;
+ 	-webkit-transform: rotate(.5deg);
+	-moz-transform: rotate(.5deg);
+	-moz-box-shadow: 1px 3px 5px #888;
+	-webkit-box-shadow: 1px 3px 5px #888;
+	box-shadow: 1px 3px 5px #888;
 }
 
+
 .pic3 {
-	 background-color: #fff;
-	 list-style-type: none;
-	 width: 210px;
-	 padding: 12px 12px 40px 12px;
-	 border: .5px .5px .5px .5px #888;
-	 -webkit-transform: rotate(5deg);
-	 -moz-transform: rotate(5deg);
-	 -moz-box-shadow: 1px 3px 5px #888;
-	 -webkit-box-shadow: 1px 3px 5px #888;
-	 box-shadow: 1px 3px 5px #888;
+	font-family: 'Just Another Hand', cursive;
+	font-size: 28px;
+	text-align: center;
+	background-color: #fff;
+	list-style-type: none;
+	width: 210px;
+	padding: 12px 12px 0px 12px;
+	border: .5px .5px .5px .5px #888;
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	-moz-box-shadow: 1px 3px 5px #888;
+	-webkit-box-shadow: 1px 3px 5px #888;
+	box-shadow: 1px 3px 5px #888;
 }
 
 .pic4 {
-	 background-color: #fff;
-	 list-style-type: none;
-	 width: 210px;
-	 padding: 12px 12px 40px 12px;
-	 border: .5px .5px .5px .5px #888;
-	 -webkit-transform: rotate(-4deg);
-	 -moz-transform: rotate(-4deg);
-	 -moz-box-shadow: 1px 3px 5px #888;
-	 -webkit-box-shadow: 1px 3px 5px #888;
-	 box-shadow: 1px 3px 5px #888;
+	font-family: 'Just Another Hand', cursive;
+	font-size: 28px;
+	text-align: center;
+	background-color: #fff;
+	list-style-type: none;
+	width: 210px;
+	padding: 12px 12px 0px 12px;
+	border: .5px .5px .5px .5px #888;
+	-webkit-transform: rotate(-4deg);
+	-moz-transform: rotate(-4deg);
+	-moz-box-shadow: 1px 3px 5px #888;
+	-webkit-box-shadow: 1px 3px 5px #888;
+	box-shadow: 1px 3px 5px #888;
 }
 
 .pic5 {
-	 background-color: #fff;
-	 list-style-type: none;
-	 width: 210px;
-	 padding: 12px 12px 40px 12px;
-	 border: .5px .5px .5px .5px #888;
-	 -webkit-transform: rotate(3deg);
-	 -moz-transform: rotate(3deg);
-	 -moz-box-shadow: 1px 3px 5px #888;
-	 -webkit-box-shadow: 1px 3px 5px #888;
-	 box-shadow: 1px 3px 5px #888;
+	font-family: 'Just Another Hand', cursive;
+	font-size: 28px;
+	text-align: center;
+	background-color: #fff;
+	list-style-type: none;
+	width: 210px;
+	padding: 12px 12px 0px 12px;
+	border: .5px .5px .5px .5px #888;
+	-webkit-transform: rotate(3deg);
+	-moz-transform: rotate(3deg);
+	-moz-box-shadow: 1px 3px 5px #888;
+	-webkit-box-shadow: 1px 3px 5px #888;
+	box-shadow: 1px 3px 5px #888;
+	margin-bottom: 75px
+}
+
+
+#copyright {
+	clear: both;
+	padding: 10px
+	border-top: 1px;
 }
