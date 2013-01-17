@@ -14,8 +14,9 @@
 	font-size: 1.875em; 
 	color: #8B814C;
 	text-shadow: 1px 2px 4px #111;
+	width: auto;
 	text-align: right;
-	margin: 5px 25px 0px 0px;
+	margin: 5px auto 0px 0px;
 	float: left;
 }
 
