@@ -190,7 +190,7 @@ ul li div {
 	background-color: #fff;
 	list-style-type: none;
 	width: 210px;
-	padding: 12px 12px 0px 12px;
+	padding: 12px 12px 5px 12px;
 	border: .5px .5px .5px .5px #888;
  	-webkit-transform: rotate(.5deg);
 	-moz-transform: rotate(.5deg);
@@ -207,7 +207,7 @@ ul li div {
 	background-color: #fff;
 	list-style-type: none;
 	width: 210px;
-	padding: 12px 12px 0px 12px;
+	padding: 12px 12px 5px 12px;
 	border: .5px .5px .5px .5px #888;
 	-webkit-transform: rotate(5deg);
 	-moz-transform: rotate(5deg);
@@ -223,7 +223,7 @@ ul li div {
 	background-color: #fff;
 	list-style-type: none;
 	width: 210px;
-	padding: 12px 12px 0px 12px;
+	padding: 12px 12px 5px 12px;
 	border: .5px .5px .5px .5px #888;
 	-webkit-transform: rotate(-4deg);
 	-moz-transform: rotate(-4deg);
@@ -239,7 +239,7 @@ ul li div {
 	background-color: #fff;
 	list-style-type: none;
 	width: 210px;
-	padding: 12px 12px 0px 12px;
+	padding: 12px 12px 5px 12px;
 	border: .5px .5px .5px .5px #888;
 	-webkit-transform: rotate(3deg);
 	-moz-transform: rotate(3deg);
