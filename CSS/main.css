@@ -3,7 +3,11 @@
 
 
 /*------------------------------------ logo & branding --*/
-
+body {
+	background-image: url("../Images/Woodgrain.png");
+	width: 790px;
+	backgound-color: rgba (255, 250, 240, .5);
+}
 
 ul {
 	float: left;
@@ -18,6 +22,7 @@ ul {
 	text-shadow: 1px 2px 4px #111;
 	width: auto;
 	text-align: right;
+	text-indent: 99,999px;
 	margin: 5px auto 0px 0px;
 	float: left;
 }
@@ -91,7 +96,6 @@ p {
 	font-family: 'Holtwood One SC', serif;
 	border: solid 1.2px #CD950C;
 	background-color: #EEAD0E;
-	
 	display: block;
 	padding: 15px 10px 15px 10px;
 	margin: 10px 20px 10px 0px;
@@ -102,8 +106,6 @@ p {
 	-webkit-box-shadow: 1px 3px 5px #888;
 	box-shadow: 1px 3px 5px #888;
 }	
-
-	
 
 a:link{
 	color: #006400;
