@@ -5,7 +5,9 @@
 /*------------------------------------ logo & branding --*/
 
 
-
+ul {
+	float: left;
+}
 
 
 
@@ -40,7 +42,9 @@ a:active{
 	color: #A2CD5A;
 }
 
-
+p {
+ float: left;
+}
 
 
 
@@ -60,11 +64,10 @@ a:active{
 
 /*----------------------------------- main navigation --*/
 
-
 #main_nav {
-	padding: 0;
+	padding: 55px 0px 0px 0px;
 	margin-top: 0;
-	margin-bottom: 0;
+	margin-bottom: 75px;
 }
 
 
@@ -126,26 +129,32 @@ a:active{
 
 
 /*----------------------------------- company description  --*/
-
+section {
+width: 790px;
+	float: right;
+	padding-left: 20px;
+	padding-bottom: 50px;
+}
 
 	
 h2 {
-	 
 	font-family: 'Arizonia', cursive; arial, sans-serif;
 	color: #006400;
 	text-align: center;
 	width: 790px;
-	margin-top: 0px;
-}		
-		
-#company_discription {
+	padding: 10px 0px 0px 0px;
+	margin: 0;
+}	
+	
+#company_discription p {
 	font-family: 'Alice', serif;
 	color: #636363;
 	font-size: 16px;
-	width: 500px;
-	float: left;
+	text-indent: 10px;
+	width: 585px;
+	float: right;
 	padding-left: 20px;
-	padding-bottom: 50px;
+	margin: 12px 10px 0px 0px;
 }		
 
 .gallery_link {
@@ -170,23 +179,26 @@ h2 {
 
 /*--------------------------------- gallery page --*/
 
-section {
-	width: 790px;
-}
 
 #gallery_photos {
-	margin: none;
-}
-
-ul li div {
 	margin: 0;
+	width: 590px;
+	float: right;
 }
 
-aside {
+article {
+	margin: 0;
+	width: 590px;
+	float: right;
+}
+
+#slogan {
 	font-family: 'Just Another Hand', cursive;
-	width: 790px;
-	padding-left: 20px;
-	text-align: center;
+	font-size: 1.3em;
+	width: 580px;
+	float: right;
+	margin: 0px 0px 0px 40px;
+	padding: 20px 0px 20px 0px
 }
 
 .pic1 {
@@ -203,7 +215,6 @@ aside {
 	-moz-box-shadow: 1px 3px 5px #888;
 	-webkit-box-shadow: 1px 3px 5px #888;
 	box-shadow: 1px 3px 5px #888;
-	clear: left;
 }
 
 .pic2 {
@@ -278,8 +289,9 @@ ul p {
 	font-size: 1.666em;
 	float: right;
 	width: 250px;
-	text-align: right;
+	text-align: left;
 	padding-top: 50px;
+	padding-right: 18px;
 }
 
 
