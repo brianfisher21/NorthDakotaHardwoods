@@ -190,18 +190,22 @@ h2 {
 
 .gallery_link:link{
 	color: #006400;
+	display: inline;
 }
 
 .gallery_link:visited{
 	color: #8B8B00;
+	display: inline;
 }
 
 .gallery_link:hover{
 	color: #EEEE00;
+	display: inline;
 }
 
 .gallery_link:active{
 	color: #A2CD5A;
+	display: inline;
 }
 
 /*--------------------------------- gallery page --*/
