@@ -21,8 +21,6 @@ body {
 	text-indent: 99,999px;
 	margin: 5px auto 0px 0px;
 	float: left;
-	
-	border: solid red 2px;
 }
 
 a {
@@ -79,7 +77,7 @@ nav {
 	
 }
 #main_nav {
-	width: 40.89178%;/*392*/
+	width: 50.89178%;/*392*/
 	margin-top: 0;
 	margin-bottom: 6.25%;
 	margin-left: auto;
@@ -190,7 +188,7 @@ h2 {
 #company_discription p {
 	font-family: 'Alice', serif;
 	color: #636363;
-	font-size: 16px;
+	font-size: 1em;
 	text-indent: 10px;
 	max-width: 100%;
 	float: none;
@@ -263,6 +261,7 @@ heading {
 	background-color: #fff;
 	list-style-type: none;
 	width: 26.582278%; /*234px*/
+	margin-right: 10%;
 	padding: 12px 0.7142857% /*12px*/ 5px 0.7142857% /*12px*/;
 	border: .5px 0.21367521% /*.5px*/ .5px 0.21367521% /*.5px*/ #888;
 	-webkit-transform: rotate(-2deg);
@@ -348,6 +347,7 @@ ul p {
 	text-align: left;
 	padding-top: 50px;
 	padding-right: 02.8125%; /*27px*/
+	margin-left: 20%;
 }
 
 
@@ -356,11 +356,12 @@ ul p {
 
 #form {
 	text-align: center;
+	clear: both;
 }
 
 
 #place_holder {
-	margin: 790px;      /*-- temporary --*/
+	margin: 100%  /*790px*/;      /*-- temporary --*/
 }
 
 
@@ -369,10 +370,47 @@ ul p {
 	font-size: .80em;
 	color: #C2C2C2;
 	text-align: center;
-	width: 790px;
+	width: 100%; /*790px*/
 	clear: both;
 	margin-top: 0;
 	padding-top: 10px;
 	border-top: solid 1px;
 	border-color:#C2C2C2;
 }
+
+
+
+	
+	/*Media Queries
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+	/* tablet portrait size to standard 960 (devices and browsers) */
+	@media screen and (min-width: 768px) and (max-width: 959px) {
+		body {background-image: none}
+		#logo_excape_hatch {font-size: 1.6em;
+							margin-top: 10px;}
+		
+	}
+	
+	/* mobile landscape size to tablet portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		#logo_excape_hatch {font-size: 1.6em; margin-top: 10px;}
+		
+		#hours {clear: both; float: left;}
+		#hours br {display: none;}
+		.nav_link {font-size: .6875em;}
+		.c2t {font-size: .6875em;}
+		h2 {font-size: 1.318em}
+		#company_discription p {font-size: .725em}
+		#copyright {font-size: 0.525em;}
+		
+		
+		 
+	}
+	
+	/* mobile protrait size to mobile landscape (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		
+	}
+	
