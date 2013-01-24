@@ -5,29 +5,24 @@
 /*------------------------------------ logo & branding --*/
 body {
 	background-image: url("../Images/Woodgrain.jpg");
-	width: 100%
-	font-size: 100%
+	font-size: 100%;
+	max-width: 60em;
 	background-color: rgba (255, 250, 240, .5);
-}
-
-ul {
-	float: left;
-}
-
-logo {
-width: 73.164557%;
-
+	margin: 0 auto; 
+	padding: 0px 20px 20px 20px;
 }
 
 #logo_excape_hatch {
 	font-family: 'Holtwood One SC', serif;
-	font-size: 100%;
+	font-size: 1.875em;
 	color: #8B814C;
 	text-shadow: 1px 2px 4px #111;
 	text-align: left;
 	text-indent: 99,999px;
 	margin: 5px auto 0px 0px;
 	float: left;
+	
+	border: solid red 2px;
 }
 
 a {
@@ -62,64 +57,59 @@ p {
 	color: #666;
 	text-align: right;
 	margin: 3px 0px 6px 0px; 
-}
-
-
-header {
-	width: 100%;
-	margin: 0;
-	padding: 0;
-}
-
-
-#lumber {
-	margin: 0;
-	padding: 0;
-	width: 99.746835%; /*788px;*/
-	clear: both;
+	overflow: hidden;
+	float: right;
 	
 }
 
+
 #lumber img {
-	max-width: 100%;
+	max-width: 99.583333%;
 	display: block;
-	border: solid 2px #8B814C;
-}
+	outline: solid 2px #8B814C;
+	clear: both;
+	}
 
 
 /*----------------------------------- main navigation --*/
 nav {
-	width: 64.050633%; /*427*/
+	 width: 100%;
 	float: right;
+	
 	
 }
 #main_nav {
+	width: 40.89178%;/*392*/
 	margin-top: 0;
-	margin-bottom: 50px;
-	/*margin-left: auto;
-	margin-right: auto;*/
+	margin-bottom: 6.25%;
+	margin-left: auto;
+	margin-right: auto;
 	float: right;
+	padding-right: 0;
+	padding-bottom: 5px;
+	overflow: hidden;
 }
 
 
 
 .nav_link {
-	font: 'Alice', serif;
-	max-width= 54.050633%;
-	border: solid 1.2px #EEEED1;
+	font-family: 'Alice', serif;
+	font-size: .8em;
 	font-weight: bold;
+	max-width: 100%;
+	border: solid 1.2px #EEEED1;
 	background-color: #FFFFE0;
 	display: inline;
 	text-align: center;
 	margin-right: 3px;
-	width: 65px;
+	padding: 1px .8% 2px .8%;
 	float: right;
-	-webkit-border-bottom-right-radius: 5px;
-	-webkit-border-bottom-left-radius: 5px;
-	-moz-border-radius-bottomright: 5px;
-	-moz-border-radius-bottomleft: 5px;
-	border-bottom-right-radius: 5px;
-	border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 11% /*5px*/;
+	-webkit-border-bottom-left-radius: 11% /*5px*/;
+	-moz-border-radius-bottomright: 11% /*5px*/;
+	-moz-border-radius-bottomleft: 11% /*5px*/;
+	border-bottom-right-radius: 11% /*5px*/;
+	border-bottom-left-radius: 11% /*5px*/;
 	-moz-box-shadow: 1px 3px 5px #888;
 	-webkit-box-shadow: 1px 3px 5px #888;
 	box-shadow: 1px 3px 5px #888;
@@ -127,26 +117,25 @@ nav {
 
 .c2t {
 	font-family: 'Alice', serif;
-	border: solid 1.2px #CD950C;
-	max-width= 25.761124%;
-	font-size: .99em; 
+	font-size: .89em;
 	font-weight: bold;
+	border: solid 1.2px #CD950C;
+	max-width= 100%;
 	background-color: #EEAD0E;
-	padding-bottom: 5px;
+	padding: 1px .8% 3px .8%;
 	margin-right: 5px;
 	display: inline;
 	text-align: center;
-	width: 110px;
 	float: right;
-	-webkit-border-bottom-right-radius: 5px;
-	-webkit-border-bottom-left-radius: 5px;
-	-moz-border-radius-bottomright: 5px;
-	-moz-border-radius-bottomleft: 5px;
-	border-bottom-right-radius: 5px;
-	border-bottom-left-radius: 5px;
-	-moz-box-shadow: 1px 3px 5px #888;
-	-webkit-box-shadow: 1px 3px 5px #888;
-	box-shadow: 1px 3px 5px #888;
+	-webkit-border-bottom-right-radius: 9% /*5px*/;
+	-webkit-border-bottom-left-radius: 9% /*5px*/;
+	-moz-border-radius-bottomright: 9% /*5px*/;
+	-moz-border-radius-bottomleft: 9% /*5px*/;
+	border-bottom-right-radius: 9% /*5px*/;
+	border-bottom-left-radius: 9% /*5px*/;
+	-moz-box-shadow: 1px 3px 8px #888;
+	-webkit-box-shadow: 1px 3px 8px #888;
+	box-shadow: 1px 3px 8px #888;
 }	
 
 a:link{
@@ -186,8 +175,9 @@ section {
 h2 {
 	font-family: 'Arizonia', cursive; arial, sans-serif;
 	color: #006400;
+	font-size: 1.593em;
 	text-align: center;
-	width: 100%
+	max-width: 100%
 	padding: 0;
 	margin: 0;
 	clear: both;
@@ -234,18 +224,24 @@ h2 {
 
 /*--------------------------------- gallery page --*/
 
-
+article {
+	width: 100%;
+}
 #gallery_photos {
-	margin: 0;
-	width: 650px;
+	/*margin-left: 07.6923077%;*/
+	max-width: 82.291667%; /*650px*/
 	float: right;
-	padding: 0px 50px 0px 50px
+	padding: 0px 6.6923077% /*50px*/ 0px  10.6923077%; /*50px*/
 }
 
-article h2 {
+#gallery_photos img {
+	max-width: 100%;
+}
+
+heading {
 	margin: 0;
 	padding: 0;
-	width: 790px;
+	width: 82.291667%; /*790*/
 	clear: both;
 	float: none
 	text-align: center;
@@ -254,20 +250,21 @@ article h2 {
 #slogan {
 	font-family: 'Just Another Hand', cursive;
 	font-size: 1.3em;
+	max-width: 27.083333%; /*260px*/
 	clear: both;
-	padding: 16px 0px 0px 90px
-	
+	padding: 16px 0px 0px 11.375%; /*90px*/
 }
+
 
 .pic1 {
 	font-family: 'Just Another Hand', cursive;
-	font-size: 28px;
+	font-size: 1.75em;
 	text-align: center;
 	background-color: #fff;
 	list-style-type: none;
-	width: 210px;
-	padding: 12px 12px 5px 12px;
-	border: .5px .5px .5px .5px #888;
+	width: 26.582278%; /*234px*/
+	padding: 12px 0.7142857% /*12px*/ 5px 0.7142857% /*12px*/;
+	border: .5px 0.21367521% /*.5px*/ .5px 0.21367521% /*.5px*/ #888;
 	-webkit-transform: rotate(-2deg);
 	-moz-transform: rotate(-2deg);
 	-moz-box-shadow: 1px 3px 5px #888;
@@ -275,15 +272,16 @@ article h2 {
 	box-shadow: 1px 3px 5px #888;
 }
 
+
 .pic2 {
 	font-family: 'Just Another Hand', cursive;
-	font-size: 28px;
+	font-size: 1.75em;
 	text-align: center;
 	background-color: #fff;
 	list-style-type: none;
-	width: 210px;
-	padding: 12px 12px 5px 12px;
-	border: .5px .5px .5px .5px #888;
+	width: 26.582278%; /*234px*/
+	padding: 12px 0.7142857% /*12px*/ 5px 0.7142857% /*12px*/;
+	border: .5px 0.21367521% /*.5px*/ .5px 0.21367521% /*.5px*/ #888;
  	-webkit-transform: rotate(.5deg);
 	-moz-transform: rotate(.5deg);
 	-moz-box-shadow: 1px 3px 5px #888;
@@ -294,13 +292,13 @@ article h2 {
 
 .pic3 {
 	font-family: 'Just Another Hand', cursive;
-	font-size: 28px;
+	font-size: 1.75em;
 	text-align: center;
 	background-color: #fff;
 	list-style-type: none;
-	width: 210px;
-	padding: 12px 12px 5px 12px;
-	border: .5px .5px .5px .5px #888;
+	width: 26.582278%; /*234px*/
+	padding: 12px 0.7142857% /*12px*/ 5px 0.7142857% /*12px*/;
+	border: .5px 0.21367521% /*.5px*/ .5px 0.21367521% /*.5px*/ #888;
 	-webkit-transform: rotate(5deg);
 	-moz-transform: rotate(5deg);
 	-moz-box-shadow: 1px 3px 5px #888;
@@ -310,13 +308,13 @@ article h2 {
 
 .pic4 {
 	font-family: 'Just Another Hand', cursive;
-	font-size: 28px;
+	font-size: 1.75em;
 	text-align: center;
 	background-color: #fff;
 	list-style-type: none;
-	width: 210px;
-	padding: 12px 12px 5px 12px;
-	border: .5px .5px .5px .5px #888;
+	width: 26.582278%; /*234px*/
+	padding: 12px 0.7142857% /*12px*/ 5px 0.7142857% /*12px*/;
+	border: .5px 0.21367521% /*.5px*/ .5px 0.21367521% /*.5px*/ #888;
 	-webkit-transform: rotate(-4deg);
 	-moz-transform: rotate(-4deg);
 	-moz-box-shadow: 1px 3px 5px #888;
@@ -326,13 +324,13 @@ article h2 {
 
 .pic5 {
 	font-family: 'Just Another Hand', cursive;
-	font-size: 28px;
+	font-size: 1.75em;
 	text-align: center;
 	background-color: #fff;
 	list-style-type: none;
-	width: 210px;
-	padding: 12px 12px 5px 12px;
-	border: .5px .5px .5px .5px #888;
+	width: 26.582278%; /*234px*/
+	padding: 12px 0.7142857% /*12px*/ 5px 0.7142857% /*12px*/;
+	border: .5px 0.21367521% /*.5px*/ .5px 0.21367521% /*.5px*/ #888;
 	-webkit-transform: rotate(3deg);
 	-moz-transform: rotate(3deg);
 	-moz-box-shadow: 1px 3px 5px #888;
@@ -346,10 +344,10 @@ ul p {
 	font-family: 'Just Another Hand', cursive;
 	font-size: 1.666em;
 	float: right;
-	width: 250px;
+	max-width: 32.895833% /*287px*/;
 	text-align: left;
 	padding-top: 50px;
-	padding-right: 27px;
+	padding-right: 02.8125%; /*27px*/
 }
 
 
