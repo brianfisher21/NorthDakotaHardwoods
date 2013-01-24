@@ -192,7 +192,7 @@ h2 {
 	text-indent: 10px;
 	max-width: 100%;
 	float: none;
-	margin-left: 47px;
+	margin-left: 37px;
 	
 }		
 
@@ -248,9 +248,10 @@ heading {
 #slogan {
 	font-family: 'Just Another Hand', cursive;
 	font-size: 1.3em;
-	max-width: 27.083333%; /*260px*/
+	max-width: 82.291667%; /*260px*/
 	clear: both;
-	padding: 16px 0px 0px 11.375%; /*90px*/
+	text-align: center;
+	/*padding: 16px 0px 0px 11.375%; /*90px*/
 }
 
 
@@ -390,6 +391,8 @@ ul p {
 		body {background-image: none}
 		#logo_excape_hatch {font-size: 1.6em;
 							margin-top: 10px;}
+							
+		ul p {padding-top: 40px}
 		
 	}
 	
@@ -404,7 +407,9 @@ ul p {
 		h2 {font-size: 1.318em}
 		#company_discription p {font-size: .725em}
 		#copyright {font-size: 0.525em;}
-		
+		.pic1, .pic2, .pic3, .pic4, .pic5 { font-size: 1.475em;}
+		ul p {font-size: 1.391em; padding-top: 40px;}
+		#slogan {font-size: 1.025em, }
 		
 		 
 	}
