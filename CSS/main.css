@@ -229,7 +229,7 @@ article {
 	/*margin-left: 07.6923077%;*/
 	max-width: 82.291667%; /*650px*/
 	float: right;
-	padding: 0px 6.6923077% /*50px*/ 0px  10.6923077%; /*50px*/
+	padding: 0px 3.6923077% /*50px*/ 0px  10.6923077%; /*50px*/
 }
 
 #gallery_photos img {
@@ -248,10 +248,9 @@ heading {
 #slogan {
 	font-family: 'Just Another Hand', cursive;
 	font-size: 1.3em;
-	max-width: 82.291667%; /*260px*/
+	max-width: 100% /*960*/
 	clear: both;
 	text-align: center;
-	/*padding: 16px 0px 0px 11.375%; /*90px*/
 }
 
 
@@ -347,8 +346,8 @@ ul p {
 	max-width: 32.895833% /*287px*/;
 	text-align: left;
 	padding-top: 50px;
-	padding-right: 02.8125%; /*27px*/
-	margin-left: 20%;
+	padding-right: 07.8125%; /*27px*/
+	margin-left: 15%;
 }
 
 
@@ -398,9 +397,8 @@ ul p {
 	
 	/* mobile landscape size to tablet portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
-		#logo_excape_hatch {font-size: 1.6em; margin-top: 10px;}
-		
-		#hours {clear: both; float: left;}
+		#logo_excape_hatch {font-size: 1.6em; margin-top: 3px; padding-top: 0;}
+		#hours {clear: both; float: left; padding-top: 0px,}
 		#hours br {display: none;}
 		.nav_link {font-size: .6875em;}
 		.c2t {font-size: .6875em;}
@@ -409,7 +407,7 @@ ul p {
 		#copyright {font-size: 0.525em;}
 		.pic1, .pic2, .pic3, .pic4, .pic5 { font-size: 1.475em;}
 		ul p {font-size: 1.391em; padding-top: 40px;}
-		#slogan {font-size: 1.025em, }
+		#slogan {font-size: 1.025em; }
 		
 		 
 	}
