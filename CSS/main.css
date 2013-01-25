@@ -452,6 +452,8 @@ ul p {
 		
 		#mobile_gallery {display: none;}
 		
+		#gallery_photos img {width: 95%}
+		
 		ul p {padding-top: 40px}
 		
 	}
@@ -482,6 +484,8 @@ ul p {
 		#content {font-size: 1.25em}
 		
 		#copyright {font-size: 0.525em;}
+		
+		#gallery_photos img {width: 95%}
 		
 		.pic1, .pic2, .pic3, .pic4, .pic5 { font-size: 1.3em; width: 30%;}
 		
@@ -521,7 +525,9 @@ ul p {
 		
 		#gallery_photos li {width: 35%;}
 		
-		.pic1, .pic2, .pic3, .pic4, .pic5 { font-size: .975em; margin-right: 0;}
+		#gallery_photos img {width: 95%}
+		
+		.pic1, .pic2, .pic3, .pic4, .pic5 {font-size: .975em; margin-right: 0;}
 		
 		.container {padding-left: 0;}
 		
@@ -529,7 +535,7 @@ ul p {
 		
 		#content {font-size: .975em}
 		
-		ul p {font-size: .725em; padding-top: 40px; margin-left: 0; text-align:left;}
+		ul p {font-size: .725em; padding-top: 40px; text-align:left;}
 		
 		#slogan {display: none; }
 		
