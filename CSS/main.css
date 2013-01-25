@@ -156,10 +156,32 @@ a:active{
 	display: block;
 }
 
+/*--------------------------------- About page -*/
 
 
+#about {
+	font-family: 'Arizonia', cursive; arial, sans-serif;
+	color: #006400;
+	font-size: 1.593em;
+	text-align: center;
+	max-width: 100%
+	padding: 0;
+	margin: 0;
+	clear: both;
+}
 
-
+/*--------------------------------- Content page -*/
+#content {
+	font-family: 'Arizonia', cursive; arial, sans-serif;
+	color: #006400;
+	font-size: 1.593em;
+	text-align: center;
+	max-width: 100%
+	padding: 0;
+	margin: 0;
+	clear: both;
+}
+	
 
 
 
@@ -379,7 +401,7 @@ ul p {
 	font-family: 'Just Another Hand', cursive;
 	font-size: 1.666em;
 	float: right;
-	max-width: 42.895833% /*287px*/;
+	width: 42.895833% /*287px*/;
 	text-align: left;
 	padding-top: 50px;
 	/*padding-right: 02.8125%; /*27px*/
@@ -455,6 +477,10 @@ ul p {
 		
 		#company_discription p {font-size: .725em}
 		
+		#about {font-size: 1.25em}
+		
+		#content {font-size: 1.25em}
+		
 		#copyright {font-size: 0.525em;}
 		
 		.pic1, .pic2, .pic3, .pic4, .pic5 { font-size: 1.3em; width: 30%;}
@@ -497,11 +523,17 @@ ul p {
 		
 		#copyright {font-size: 0.525em;}
 		
-		#gallery_photos { float: none;}
+		#gallery_photos li { margin: 0px 0px 100px 0px; float: none; width: 30%;}
 		
-		.pic1, .pic2, .pic3, .pic4, .pic5 { font-size: .975em; width: 30%;}
+		.pic1, .pic2, .pic3, .pic4, .pic5 { font-size: .975em; width: 30%; margin-right: 0;}
 		
-		ul p {font-size: .725em; padding-top: 30px; margin-right: 3%; clear: both; text-align: left;}
+		.container {padding-left: 0;}
+		
+		#about {font-size: .975em}
+		
+		#content {font-size: .975em}
+		
+		ul p {font-size: .725em; padding-top: 30px; margin-left: 0; text-align:left; clear: both;  max-width: 100%}
 		
 		#slogan {display: none; }
 		
