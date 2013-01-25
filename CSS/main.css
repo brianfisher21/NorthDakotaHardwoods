@@ -463,7 +463,7 @@ ul p {
 		
 		#mobile {display:none;}
 		
-		#hours {clear: both; float: left;}
+		#hours { font-size: .42em; clear: both; float: left;}
 		
 		#hours br {display: none;}
 		
@@ -494,22 +494,18 @@ ul p {
 	
 	/* mobile portrait size to mobile landscape (devices and browsers) */
 	@media only screen and (max-width: 479px) {
-		
-		body {background-image: none}
-		
-		
-		
+
 		#logo_excape_hatch {font-size: 1.325em; width: 49.060543%; margin-top: 0px; margin-right: 5%; padding-top: 0; padding-bottom: 10px; float: left;}
 		
-		#hours {font-size: .405em; float: right; padding-top: 2px; margin-left: 2%; overflow; inherit;}
+		#hours {font-size: .305em; float: right; padding-top: 2px; margin-left: 2%; overflow; inherit;}
 		
 		#welcome {display: none;}
 		
-		#mobile {text-align: left;}
+		#mobile {text-align: center;}
 		
 		.heading {display: none;}
 		
-		#mobile_gallery {clear: both;}
+		#mobile_gallery {text-align:center; clear: both;}
 		
 		#lumber {display: none;}
 		
@@ -519,13 +515,13 @@ ul p {
 		
 		.c2t {font-size: 0.424898367265em; font-weight: none; }
 		
-		#company_discription p {font-size: .625em; text-align: left; margin-left: 0; padding-left: 0;}
+		#company_discription p {font-size: .625em; text-align: center; margin-left: 0; padding-left: 0;}
 		
 		#copyright {font-size: 0.525em;}
 		
-		#gallery_photos li { margin: 0px 0px 100px 0px; float: none; width: 30%;}
+		#gallery_photos li {width: 35%;}
 		
-		.pic1, .pic2, .pic3, .pic4, .pic5 { font-size: .975em; width: 30%; margin-right: 0;}
+		.pic1, .pic2, .pic3, .pic4, .pic5 { font-size: .975em; margin-right: 0;}
 		
 		.container {padding-left: 0;}
 		
@@ -533,7 +529,7 @@ ul p {
 		
 		#content {font-size: .975em}
 		
-		ul p {font-size: .725em; padding-top: 30px; margin-left: 0; text-align:left; clear: both;  max-width: 100%}
+		ul p {font-size: .725em; padding-top: 40px; margin-left: 0; text-align:left;}
 		
 		#slogan {display: none; }
 		
