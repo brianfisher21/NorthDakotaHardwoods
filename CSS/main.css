@@ -77,7 +77,7 @@ nav {
 	
 }
 #main_nav {
-	width: 50.89178%;/*392*/
+	width: 100%;/*960px*/
 	margin-top: 0;
 	margin-bottom: 6.25%;
 	margin-left: auto;
@@ -170,7 +170,7 @@ section {
 }
 
 	
-h2 {
+#welcome {
 	font-family: 'Arizonia', cursive; arial, sans-serif;
 	color: #006400;
 	font-size: 1.593em;
@@ -181,6 +181,18 @@ h2 {
 	clear: both;
 }	
 
+#mobile {
+	font-family: 'Arizonia', cursive; arial, sans-serif;
+	color: #006400;
+	font-size: .975em;
+	text-align: center;
+	max-width: 100%
+	padding: 0;
+	margin: 0;
+	clear: both;
+}	
+
+
 #company_discription {
 	width: 94.556962%; /*747*/
 }
@@ -189,10 +201,16 @@ h2 {
 	font-family: 'Alice', serif;
 	color: #636363;
 	font-size: 1em;
-	text-indent: 10px;
 	max-width: 100%;
 	float: none;
 	margin-left: 37px;
+	text-align: justify;
+	-moz-column-count: 3;
+	-moz-column-width: 15em;
+	-moz-column-gap: 2em;
+	-webkit-column-count: 3;
+	-webkit-column-width: 15em;
+	-webkit-column-gap: 2em;
 	
 }		
 
@@ -226,23 +244,37 @@ article {
 	width: 100%;
 }
 #gallery_photos {
-	/*margin-left: 07.6923077%;*/
 	max-width: 82.291667%; /*650px*/
 	float: right;
-	padding: 0px 3.6923077% /*50px*/ 0px  10.6923077%; /*50px*/
+	padding: 0px 7.6923077% /*50px*/ 0px  10.6923077%; /*50px*/
 }
 
 #gallery_photos img {
 	max-width: 100%;
 }
 
-heading {
+.heading {
+	font-family: 'Arizonia', cursive; arial, sans-serif;
+	color: #006400;
+	font-size: 1.593em;
+	text-align: center;
+	max-width: 100%
+	clear: both;
 	margin: 0;
 	padding: 0;
-	width: 82.291667%; /*790*/
 	clear: both;
 	float: none
-	text-align: center;
+}
+
+#mobile_gallery {
+	font-family: 'Arizonia', cursive; arial, sans-serif;
+	color: #006400;
+	font-size: .975em;
+	text-align: left;
+	max-width: 100%
+	padding: 0;
+	margin: 0;
+	clear: both;
 }
 
 #slogan {
@@ -261,7 +293,7 @@ heading {
 	background-color: #fff;
 	list-style-type: none;
 	width: 26.582278%; /*234px*/
-	margin-right: 10%;
+	margin-right: 7%;
 	padding: 12px 0.7142857% /*12px*/ 5px 0.7142857% /*12px*/;
 	border: .5px 0.21367521% /*.5px*/ .5px 0.21367521% /*.5px*/ #888;
 	-webkit-transform: rotate(-2deg);
@@ -279,6 +311,7 @@ heading {
 	background-color: #fff;
 	list-style-type: none;
 	width: 26.582278%; /*234px*/
+	margin-right: 7%;
 	padding: 12px 0.7142857% /*12px*/ 5px 0.7142857% /*12px*/;
 	border: .5px 0.21367521% /*.5px*/ .5px 0.21367521% /*.5px*/ #888;
  	-webkit-transform: rotate(.5deg);
@@ -296,6 +329,7 @@ heading {
 	background-color: #fff;
 	list-style-type: none;
 	width: 26.582278%; /*234px*/
+	margin-right: 7%;
 	padding: 12px 0.7142857% /*12px*/ 5px 0.7142857% /*12px*/;
 	border: .5px 0.21367521% /*.5px*/ .5px 0.21367521% /*.5px*/ #888;
 	-webkit-transform: rotate(5deg);
@@ -312,6 +346,7 @@ heading {
 	background-color: #fff;
 	list-style-type: none;
 	width: 26.582278%; /*234px*/
+	margin-right: 7%;
 	padding: 12px 0.7142857% /*12px*/ 5px 0.7142857% /*12px*/;
 	border: .5px 0.21367521% /*.5px*/ .5px 0.21367521% /*.5px*/ #888;
 	-webkit-transform: rotate(-4deg);
@@ -328,6 +363,7 @@ heading {
 	background-color: #fff;
 	list-style-type: none;
 	width: 26.582278%; /*234px*/
+	margin-right: 7%;
 	padding: 12px 0.7142857% /*12px*/ 5px 0.7142857% /*12px*/;
 	border: .5px 0.21367521% /*.5px*/ .5px 0.21367521% /*.5px*/ #888;
 	-webkit-transform: rotate(3deg);
@@ -343,11 +379,12 @@ ul p {
 	font-family: 'Just Another Hand', cursive;
 	font-size: 1.666em;
 	float: right;
-	max-width: 32.895833% /*287px*/;
+	max-width: 42.895833% /*287px*/;
 	text-align: left;
 	padding-top: 50px;
-	padding-right: 07.8125%; /*27px*/
-	margin-left: 15%;
+	/*padding-right: 02.8125%; /*27px*/
+	margin-left: 10%;
+	margin-right: 5%;
 }
 
 
@@ -374,8 +411,7 @@ ul p {
 	clear: both;
 	margin-top: 0;
 	padding-top: 10px;
-	border-top: solid 1px;
-	border-color:#C2C2C2;
+	border-top: solid 1px #C2C2C2;
 }
 
 
@@ -385,35 +421,90 @@ ul p {
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
-	/* tablet portrait size to standard 960 (devices and browsers) */
-	@media screen and (min-width: 768px) and (max-width: 959px) {
-		body {background-image: none}
-		#logo_excape_hatch {font-size: 1.6em;
-							margin-top: 10px;}
-							
+	/* tablet portrait size to standard 10000 (devices and browsers) */
+	@media screen and (min-width: 768px) and (max-width: 10000px) {
+		
+		#logo_excape_hatch {font-size: 1.6em;margin-top: 10px;}
+		
+		#mobile {display:none;}
+		
+		#mobile_gallery {display: none;}
+		
 		ul p {padding-top: 40px}
 		
 	}
 	
 	/* mobile landscape size to tablet portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
 		#logo_excape_hatch {font-size: 1.6em; margin-top: 3px; padding-top: 0;}
-		#hours {clear: both; float: left; padding-top: 0px,}
+		
+		#mobile {display:none;}
+		
+		#hours {clear: both; float: left;}
+		
 		#hours br {display: none;}
+		
+		#mobile_gallery {display: none;}
+		
 		.nav_link {font-size: .6875em;}
+		
 		.c2t {font-size: .6875em;}
-		h2 {font-size: 1.318em}
+		
+		#welcome {font-size: 1.25em}
+		
 		#company_discription p {font-size: .725em}
+		
 		#copyright {font-size: 0.525em;}
-		.pic1, .pic2, .pic3, .pic4, .pic5 { font-size: 1.475em;}
-		ul p {font-size: 1.391em; padding-top: 40px;}
+		
+		.pic1, .pic2, .pic3, .pic4, .pic5 { font-size: 1.3em; width: 30%;}
+		
+		ul p {font-size: 1.2em; padding-top: 30px; margin-right: 3%; }
+		
 		#slogan {font-size: 1.025em; }
 		
 		 
 	}
 	
-	/* mobile protrait size to mobile landscape (devices and browsers) */
+	/* mobile portrait size to mobile landscape (devices and browsers) */
 	@media only screen and (max-width: 479px) {
+		
+		body {background-image: none}
+		
+		
+		
+		#logo_excape_hatch {font-size: 1.325em; width: 49.060543%; margin-top: 0px; margin-right: 5%; padding-top: 0; padding-bottom: 10px; float: left;}
+		
+		#hours {font-size: .405em; float: right; padding-top: 2px; margin-left: 2%; overflow; inherit;}
+		
+		#welcome {display: none;}
+		
+		#mobile {text-align: left;}
+		
+		.heading {display: none;}
+		
+		#mobile_gallery {clear: both;}
+		
+		#lumber {display: none;}
+		
+		nav {border-top: solid 2px #8B814C;}
+		
+		.nav_link {font-size: 0.424898367265em; font-weight: none; }
+		
+		.c2t {font-size: 0.424898367265em; font-weight: none; }
+		
+		#company_discription p {font-size: .625em; text-align: left; margin-left: 0; padding-left: 0;}
+		
+		#copyright {font-size: 0.525em;}
+		
+		#gallery_photos { float: none;}
+		
+		.pic1, .pic2, .pic3, .pic4, .pic5 { font-size: .975em; width: 30%;}
+		
+		ul p {font-size: .725em; padding-top: 30px; margin-right: 3%; clear: both; text-align: left;}
+		
+		#slogan {display: none; }
+		
 		
 	}
 	
