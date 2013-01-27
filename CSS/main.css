@@ -1,8 +1,7 @@
-/*------------------------------------ pixels/16=em --*/
+/*------------------------------------ pixel/16=em -------------------------------------*/
 
+/*------------------------------------ logo & branding ---------------------------------*/
 
-
-/*------------------------------------ logo & branding --*/
 body {
 	background-image: url("../Images/Woodgrain.jpg");
 	font-size: 100%;
@@ -21,61 +20,58 @@ body {
 	text-indent: 99,999px;
 	margin: 5px auto 0px 0px;
 	float: left;
+	display: block;
 }
 
 a {
 	text-decoration: none;
 }	
 
-a:link{
-	color: #006400;
+#logo a:link{
+	color: #8B814C;
 }
 
-a:visited{
-	color: #8B8B00;
+#logo a:visited{
+	color: #8B814C;
 }
 
-a:hover{
-	color: #CDCD00;
+#logo a:hover{
+	color: #8B814C;
 }
 
-a:active{
-	color: #A2CD5A;
+#logo a:active{
+	color: #8B814C;
 }
 
 p {
  float: left;
 }
 
-
-
 #hours {
-	font-family: 'Alice', serif; 
+	font: 'Alice', serif; 
 	font-size: .562em;
 	color: #666;
 	text-align: right;
 	margin: 3px 0px 6px 0px; 
 	overflow: hidden;
 	float: right;
-	
 }
-
 
 #lumber img {
 	max-width: 99.583333%;
 	display: block;
 	outline: solid 2px #8B814C;
 	clear: both;
-	}
+}
 
 
-/*----------------------------------- main navigation --*/
+/*----------------------------------- main navigation ----------------------------------*/
+
 nav {
 	 width: 100%;
 	float: right;
-	
-	
 }
+
 #main_nav {
 	width: 100%;/*960px*/
 	margin-top: 0;
@@ -87,8 +83,6 @@ nav {
 	padding-bottom: 5px;
 	overflow: hidden;
 }
-
-
 
 .nav_link {
 	font-family: 'Alice', serif;
@@ -108,9 +102,9 @@ nav {
 	-moz-border-radius-bottomleft: 11% /*5px*/;
 	border-bottom-right-radius: 11% /*5px*/;
 	border-bottom-left-radius: 11% /*5px*/;
-	-moz-box-shadow: 1px 3px 5px #888;
-	-webkit-box-shadow: 1px 3px 5px #888;
-	box-shadow: 1px 3px 5px #888;
+	-moz-box-shadow: 1px 2px 5px #888;
+	-webkit-box-shadow: 1px 2px 5px #888;
+	box-shadow: 1px 2px 5px #888;
 }
 
 .c2t {
@@ -118,7 +112,7 @@ nav {
 	font-size: .89em;
 	font-weight: bold;
 	border: solid 1.2px #CD950C;
-	max-width= 100%;
+	max-width: 100%;
 	background-color: #EEAD0E;
 	padding: 1px .8% 3px .8%;
 	margin-right: 5px;
@@ -131,33 +125,32 @@ nav {
 	-moz-border-radius-bottomleft: 9% /*5px*/;
 	border-bottom-right-radius: 9% /*5px*/;
 	border-bottom-left-radius: 9% /*5px*/;
-	-moz-box-shadow: 1px 3px 8px #888;
-	-webkit-box-shadow: 1px 3px 8px #888;
-	box-shadow: 1px 3px 8px #888;
+	-moz-box-shadow: 1px 1px 5px #888;
+	-webkit-box-shadow: 1px 1px 5px #888;
+	box-shadow: 1px 1px 5px #888;
 }	
 
-a:link{
+li a:link{
 	color: #006400;
 	display: block;
 }
 
-a:visited{
+li a:visited{
 	color: #8B8B00;
 	display: block;
 }
 
-a:hover{
+li a:hover{
 	color: #EEEE00;
 	display: block;
 }
 
-a:active{
+li a:active{
 	color: #A2CD5A;
 	display: block;
 }
 
-/*--------------------------------- About page -*/
-
+/*---------------------------------- About page ----------------------------------------*/
 
 #about {
 	font-family: 'Arizonia', cursive; arial, sans-serif;
@@ -170,7 +163,8 @@ a:active{
 	clear: both;
 }
 
-/*--------------------------------- Content page -*/
+/*----------------------------------- Content page -------------------------------------*/
+
 #content {
 	font-family: 'Arizonia', cursive; arial, sans-serif;
 	color: #006400;
@@ -182,16 +176,12 @@ a:active{
 	clear: both;
 }
 	
+/*----------------------------------- company description  -----------------------------*/
 
-
-
-/*----------------------------------- company description  --*/
 section {
 	padding-bottom: 52px;
-	
 }
 
-	
 #welcome {
 	font-family: 'Arizonia', cursive; arial, sans-serif;
 	color: #006400;
@@ -214,7 +204,6 @@ section {
 	clear: both;
 }	
 
-
 #company_discription {
 	width: 94.556962%; /*747*/
 }
@@ -233,7 +222,6 @@ section {
 	-webkit-column-count: 3;
 	-webkit-column-width: 15em;
 	-webkit-column-gap: 2em;
-	
 }		
 
 .gallery_link {
@@ -260,11 +248,12 @@ section {
 	display: inline;
 }
 
-/*--------------------------------- gallery page --*/
+/*--------------------------------- gallery page ---------------------------------------*/
 
 article {
 	width: 100%;
 }
+
 #gallery_photos {
 	max-width: 82.291667%; /*650px*/
 	float: right;
@@ -404,13 +393,12 @@ ul p {
 	width: 42.895833% /*287px*/;
 	text-align: left;
 	padding-top: 50px;
-	/*padding-right: 02.8125%; /*27px*/
 	margin-left: 10%;
 	margin-right: 5%;
 }
 
 
-/*----------------------------------- appointment form --*/
+/*----------------------------------- appointment form ---------------------------------*/
 
 
 #form {
@@ -444,7 +432,8 @@ ul p {
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
 	/* tablet portrait size to standard 10000 (devices and browsers) */
-	@media screen and (min-width: 768px) and (max-width: 10000px) {
+	
+@media screen and (min-width: 768px) and (max-width: 10000px) {
 		
 		#logo_excape_hatch {font-size: 1.6em;margin-top: 10px;}
 		
@@ -455,11 +444,12 @@ ul p {
 		#gallery_photos img {width: 95%}
 		
 		ul p {padding-top: 40px}
-		
 	}
 	
+	
 	/* mobile landscape size to tablet portrait (devices and browsers) */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+@media only screen and (min-width: 480px) and (max-width: 767px) {
 		
 		#logo_excape_hatch {font-size: 1.6em; margin-top: 3px; padding-top: 0;}
 		
@@ -492,12 +482,12 @@ ul p {
 		ul p {font-size: 1.2em; padding-top: 30px; margin-right: 3%; }
 		
 		#slogan {font-size: 1.025em; }
-		
-		 
 	}
 	
+	
 	/* mobile portrait size to mobile landscape (devices and browsers) */
-	@media only screen and (max-width: 479px) {
+	
+@media only screen and (max-width: 479px) {
 
 		#logo_excape_hatch {font-size: 1.325em; width: 49.060543%; margin-top: 0px; margin-right: 5%; padding-top: 0; padding-bottom: 10px; float: left;}
 		
@@ -540,6 +530,5 @@ ul p {
 		#slogan {display: none; }
 		
 		#copyright {font-size: 0.25em;} 
-		
 	}
 	
