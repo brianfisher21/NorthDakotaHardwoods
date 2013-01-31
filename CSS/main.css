@@ -6,7 +6,6 @@ body {
 	background-image: url("../Images/Woodgrain.jpg");
 	font-size: 100%;
 	max-width: 60em;
-	background-color: rgba (255, 250, 240, .5);
 	margin: 0 auto; 
 	padding: 0px 20px 20px 20px;
 }
@@ -157,7 +156,7 @@ li a:active{
 	color: #006400;
 	font-size: 1.593em;
 	text-align: center;
-	max-width: 100%
+	max-width: 100%;
 	padding: 0;
 	margin: 0;
 	clear: both;
@@ -170,7 +169,7 @@ li a:active{
 	color: #006400;
 	font-size: 1.593em;
 	text-align: center;
-	max-width: 100%
+	max-width: 100%;
 	padding: 0;
 	margin: 0;
 	clear: both;
@@ -187,7 +186,7 @@ section {
 	color: #006400;
 	font-size: 1.593em;
 	text-align: center;
-	max-width: 100%
+	max-width: 100%;
 	padding: 0;
 	margin: 0;
 	clear: both;
@@ -198,7 +197,7 @@ section {
 	color: #006400;
 	font-size: .975em;
 	text-align: center;
-	max-width: 100%
+	max-width: 100%;
 	padding: 0;
 	margin: 0;
 	clear: both;
@@ -269,7 +268,7 @@ article {
 	color: #006400;
 	font-size: 1.593em;
 	text-align: center;
-	max-width: 100%
+	max-width: 100%;
 	clear: both;
 	margin: 0;
 	padding: 0;
@@ -282,7 +281,7 @@ article {
 	color: #006400;
 	font-size: .975em;
 	text-align: left;
-	max-width: 100%
+	max-width: 100%;
 	padding: 0;
 	margin: 0;
 	clear: both;
@@ -291,7 +290,7 @@ article {
 #slogan {
 	font-family: 'Just Another Hand', cursive;
 	font-size: 1.3em;
-	max-width: 100% /*960*/
+	max-width: 100%; /*960*/
 	clear: both;
 	text-align: center;
 }
@@ -306,7 +305,7 @@ article {
 	width: 26.582278%; /*234px*/
 	margin-right: 7%;
 	padding: 12px 0.7142857% /*12px*/ 5px 0.7142857% /*12px*/;
-	border: .5px 0.21367521% /*.5px*/ .5px 0.21367521% /*.5px*/ #888;
+	border: .5px #888;
 	-webkit-transform: rotate(-2deg);
 	-moz-transform: rotate(-2deg);
 	-moz-box-shadow: 1px 3px 5px #888;
@@ -324,7 +323,7 @@ article {
 	width: 26.582278%; /*234px*/
 	margin-right: 7%;
 	padding: 12px 0.7142857% /*12px*/ 5px 0.7142857% /*12px*/;
-	border: .5px 0.21367521% /*.5px*/ .5px 0.21367521% /*.5px*/ #888;
+	border: .5px #888;
  	-webkit-transform: rotate(.5deg);
 	-moz-transform: rotate(.5deg);
 	-moz-box-shadow: 1px 3px 5px #888;
@@ -342,7 +341,7 @@ article {
 	width: 26.582278%; /*234px*/
 	margin-right: 7%;
 	padding: 12px 0.7142857% /*12px*/ 5px 0.7142857% /*12px*/;
-	border: .5px 0.21367521% /*.5px*/ .5px 0.21367521% /*.5px*/ #888;
+	border: .5px #888;
 	-webkit-transform: rotate(5deg);
 	-moz-transform: rotate(5deg);
 	-moz-box-shadow: 1px 3px 5px #888;
@@ -359,7 +358,7 @@ article {
 	width: 26.582278%; /*234px*/
 	margin-right: 7%;
 	padding: 12px 0.7142857% /*12px*/ 5px 0.7142857% /*12px*/;
-	border: .5px 0.21367521% /*.5px*/ .5px 0.21367521% /*.5px*/ #888;
+	border: .5px #888;
 	-webkit-transform: rotate(-4deg);
 	-moz-transform: rotate(-4deg);
 	-moz-box-shadow: 1px 3px 5px #888;
@@ -376,7 +375,7 @@ article {
 	width: 26.582278%; /*234px*/
 	margin-right: 7%;
 	padding: 12px 0.7142857% /*12px*/ 5px 0.7142857% /*12px*/;
-	border: .5px 0.21367521% /*.5px*/ .5px 0.21367521% /*.5px*/ #888;
+	border: .5px #888;
 	-webkit-transform: rotate(3deg);
 	-moz-transform: rotate(3deg);
 	-moz-box-shadow: 1px 3px 5px #888;
@@ -390,7 +389,7 @@ ul p {
 	font-family: 'Just Another Hand', cursive;
 	font-size: 1.666em;
 	float: right;
-	width: 42.895833% /*287px*/;
+	width: 42.895833%; /*287px*/
 	text-align: left;
 	padding-top: 50px;
 	margin-left: 10%;
@@ -408,7 +407,7 @@ ul p {
 
 
 #place_holder {
-	margin: 100%  /*790px*/;      /*-- temporary --*/
+	margin: 100%;  /*790px*/     /*-- temporary --*/
 }
 
 
@@ -505,9 +504,9 @@ ul p {
 		
 		nav {border-top: solid 2px #8B814C;}
 		
-		.nav_link {font-size: 0.424898367265em; font-weight: none; }
+		.nav_link {font-size: 0.424898367265em; font-weight: normal; }
 		
-		.c2t {font-size: 0.424898367265em; font-weight: none; }
+		.c2t {font-size: 0.424898367265em; font-weight: normal; }
 		
 		#company_discription p {font-size: .625em; text-align: center; margin-left: 0; padding-left: 0;}
 		
