@@ -17,9 +17,7 @@ body {
 	text-shadow: 1px 2px 4px #111;
 	text-align: left;
 	text-indent: 99,999px;
-	margin: 5px auto 0px 0px;
 	float: left;
-	display: block;
 }
 
 a {
@@ -663,7 +661,7 @@ button {
 		
 		#slogan {display: none;}
 		
-		#submit {font-size: .625em; padding-top: 7px; padding-bottom: 7px; border-radius: 5px;}
+		#submit {font-size: .5em; padding-top: 7px; padding-bottom: 7px; border-radius: 5px;}
 		
 		#copyright {font-size: 0.45em;} 
 	}
