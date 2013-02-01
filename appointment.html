@@ -28,7 +28,6 @@
 			
 				<h3 id="hours"> Mon.-Fri., 8:00am-5:30pm<br/>   Sat., 8:00am-Noon<br/>  Call for special appointment<br/> 701.663.5201<br/></h3>
 	
-		
 				<div id="lumber">	
 					<img src="Images/hardwood-lumber.png" alt="branding">
 			
@@ -40,26 +39,51 @@
 	
 
 			
-<table>		
-		 <td valign='top'>
-                                                <table border='0' cellpadding='0' cellspacing='0' style='font-size:8pt; margin-top:8px; margin-left:4px'>
-                                                    <tr><td style="color:black"; font-weight:bold'>North Dakota Hardwoods</td></tr>
-                                                    <tr><td style="black">LONG ISLAND: Blue Point, New York   I   P: 631-363-5000   I   F: 631-363-2167</td></tr>
-                                                    <tr><td style="color:black">HUDSON VALLEY: Circleville, New York   I   P: 845-565-5456   I   F: 845-565-5412</td></tr>
-                                                </table>
-                                            </td>
-                                            <td valign='top' align='right' style='padding-bottom:20px'>
+<table border="0" cellpadding="0" cellspacing="0">
+    <tr>
+    	<th>Contact Us</th>
+    </tr>
+    
+    <tr>
+    	<td><strong>North Dakota Hardwoods</strong></td>
+    </tr>
+    
+    <tr>
+    	<td>503 East Main, Bismarck, ND 58554</td>
+    </tr>
+    
+     <tr>
+    	<td><strong>P</strong>: 701.663.5201      <strong>F</strong>: 701.663.5202</td>
+    </tr>
+    	
 </table>
+                                                                                     
 		
 <form>		
-		First Name:<input type="text" name="Firstname" maxlength="15" placeholder="Type First Name Here" autofocus/><br/>
-		Last Name:<input type="text" name="Lastname" maxlength="15" placeholder="Type Last Name Here"/><br/>
-		Email:<input type="text" name="Email" maxlength="30" palceholder="Enter Email Here"/><br/>
-		Phone:<input type="text" name="Phone" maxlength="30" palceholder="(555)555-5555"/><br/>
+		<label>First Name</label>
+		<input type="text" name="Firstname" placeholder="Type Here" autofocus/><br/>
 		
-		Message:<br/>
-		<textarea cols="40" rows="10"></textarea><br/>		
-		<input type="Submit" name="Send"/>
+		<label>Last Name</label>
+		<input type="text" name="Lastname" placeholder="Type Here"/><br/>
+		
+		<label>Email</label>
+		<input type="text" name="Email" placeholder="janedoe@something.com"/><br/>
+		
+		<label>Phone</label>
+		<input type="text" name="Phone" placeholder="(555)555-5555"/><br/>
+		
+	<div id="scroll">
+		<lable for="role">Which Best Describes You?</lable>
+			<select name="role" id="role">
+				<option>Contractor</option>
+				<option>Vendor</option>
+				<option>Home Owner</option>
+			</select>
+	</div>		
+			
+		<label>Message</label>
+		<textarea cols="40" rows="10"></textarea><br/>	
+		<button type="button" name="" value="" id="submit">SUBMIT</button>
 </form>
 
 
