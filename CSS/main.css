@@ -503,9 +503,8 @@ button {
 }
 
 #submit {
-	 width: 21.276596%;
-    height: 38px;
-   margin-top: 20px;
+	width: 21.276596%;
+    margin-top: 20px;
     cursor: pointer;
     font-family: 'Alice', serif;
 	font-size: .875em;
@@ -514,8 +513,7 @@ button {
 	padding: 10px 20px;
 	background: -moz-linear-gradient(
 	top,#faa700 0%,#755109);
-	background: -webkit-gradient(
-	linear, left top, left bottom, from(#faa700),to(#755109));
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa700),to(#755109));
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
@@ -579,7 +577,7 @@ button {
 		
 		#mobile {display:none;}
 		
-		#hours { font-size: .42em; clear: both; float: left;}
+		#hours {font-size: .45em; clear: both; float: left;}
 		
 		#hours br {display: none;}
 		
@@ -613,9 +611,11 @@ button {
 	
 @media only screen and (max-width: 479px) {
 
-		#logo_excape_hatch {font-size: 1.325em; width: 49.060543%; margin-top: 0px; margin-right: 5%; padding-top: 0; padding-bottom: 10px; float: left;}
+		#logo_excape_hatch {font-size: 1.325em; margin-top: 0px; margin-right: 5%; padding-top: 0; padding-bottom: 10px; float: left;}
 		
-		#hours {font-size: .305em; float: right; padding-top: 2px; margin-left: 2%;}
+		#hours {font-size: .45em; clear: both; float: left; display: inline;}
+		
+		#hours br {display: none;}
 		
 		#welcome {display: none;}
 		
@@ -623,7 +623,7 @@ button {
 		
 		.heading {display: none;}
 		
-		#mobile_gallery {text-align:center; clear: both;}
+		#mobile_gallery {text-align:center; clear: both; float: left;}
 		
 		#lumber {display: none;}
 		
@@ -637,13 +637,19 @@ button {
 		
 		#copyright {font-size: 0.525em;}
 		
+		#gallery_content ul {margin-top: 0; padding-left: 0; float: left;}
+		
+		#gallery_photo {padding-left: 0; margin-top: 0;}
+		
 		#gallery_photos li {width: 35%;}
 		
-		#gallery_photos img {width: 95%}
+		#gallery_photos img {width: 95%; padding: 0;}
 		
-		.pic1, .pic2, .pic3, .pic4, .pic5 {font-size: .975em; margin-right: 0;}
+		.discription {float: left; margin: 0; padding-bottom: 10px; padding-top: 20px;}
 		
-		.container {padding-left: 0;}
+		.pic1, .pic2, .pic3, .pic4, .pic5 {font-size: .975em; margin-right: 0;  clear: left; margin-bottom: 15px;}
+		
+		.container {float: left; margin-bottom: 40px;}
 		
 		#about {font-size: .975em;}
 		
@@ -657,8 +663,8 @@ button {
 		
 		#slogan {display: none;}
 		
-		#submit {font-size: .625em}
+		#submit {font-size: .625em; padding-top: 7px; padding-bottom: 7px; border-radius: 5px;}
 		
-		#copyright {font-size: 0.25em;} 
+		#copyright {font-size: 0.45em;} 
 	}
 	
