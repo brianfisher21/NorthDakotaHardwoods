@@ -506,9 +506,8 @@ button {
     cursor: pointer;
     font-family: 'Alice', serif;
 	font-size: .875em;
-	text-align: center;
 	color: #574905;
-	padding: 10px 20px;
+	padding: 10px 04.2553191%;
 	background: -moz-linear-gradient(
 	top,#faa700 0%,#755109);
 	background: -webkit-gradient(linear, left top, left bottom, from(#faa700),to(#755109));
